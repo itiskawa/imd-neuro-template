@@ -1,0 +1,20 @@
+Heavy run summary (diagnostics resumed after interrupted first attempt)
+======================================================================
+
+Config: n_steps=20000, seq_len=600, lr=0.001, hidden_size=64
+Final training loss: 0.00089 (from original log)
+Sanity check max angular error: 0.200 rad (from original log)
+Simulated 500 trajectories of length 600
+PCA explained variance (top 3): [0.5353172  0.21189177 0.06220422] (cumulative 0.809)
+Top 5 H1 persistence values: [3.04091084 2.15184164 0.85273468 0.77388477 0.68289268]
+H0 infinite-persistence components (should be 1): 1
+Top H2 persistence values (should be near 0): []
+Bootstrap stability (8 resamples of 1000 points): max H1 per resample=[3.3734479  2.44774079 2.40008092 2.55759931 2.83213711 2.64643729
+ 3.32703602 2.00918138], mean=2.6992, std=0.4356
+Circular coordinates: saved (see heavy_circular_coords.png)
+
+Diagnostics runtime: 0.1 minutes
+
+Figures saved in results/figures/ (whichever succeeded):
+  heavy_loss_curve.png, heavy_sanity_check.png, heavy_pca3d.png,
+  heavy_persistence_diagram.png, heavy_circular_coords.png

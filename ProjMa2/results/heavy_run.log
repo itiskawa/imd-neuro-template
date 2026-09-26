@@ -1,0 +1,149 @@
+[16:16:32] Starting training: n_steps=20000, seq_len=600, lr=0.001, hidden_size=64
+[16:16:33] step      0 | loss 0.50771
+[16:17:16] step    200 | loss 0.47039
+[16:18:19] step    400 | loss 0.37961
+[16:19:00] step    600 | loss 0.26303
+[16:34:39] step    800 | loss 0.26752
+[16:50:16] step   1000 | loss 0.21914
+[16:50:55] step   1200 | loss 0.17564
+[16:51:35] step   1400 | loss 0.18854
+[16:52:15] step   1600 | loss 0.20211
+[16:52:55] step   1800 | loss 0.12506
+[16:53:34] step   2000 | loss 0.08883
+[16:53:34] checkpoint saved at step 2000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[16:54:14] step   2200 | loss 0.10117
+[16:54:55] step   2400 | loss 0.08138
+[16:55:36] step   2600 | loss 0.08524
+[17:11:14] step   2800 | loss 0.08250
+[17:11:53] step   3000 | loss 0.08840
+[17:12:33] step   3200 | loss 0.06352
+[17:13:13] step   3400 | loss 0.05130
+[17:13:52] step   3600 | loss 0.02860
+[17:14:32] step   3800 | loss 0.03753
+[17:15:12] step   4000 | loss 0.03184
+[17:15:12] checkpoint saved at step 4000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[17:15:52] step   4200 | loss 0.37447
+[17:16:33] step   4400 | loss 0.24777
+[17:17:13] step   4600 | loss 0.03235
+[17:17:54] step   4800 | loss 0.05146
+[17:18:34] step   5000 | loss 0.04944
+[17:19:14] step   5200 | loss 0.02173
+[17:19:56] step   5400 | loss 0.01693
+[17:20:38] step   5600 | loss 0.01803
+[17:21:20] step   5800 | loss 0.02826
+[17:22:02] step   6000 | loss 0.02285
+[17:22:02] checkpoint saved at step 6000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[17:22:44] step   6200 | loss 0.05073
+[17:23:26] step   6400 | loss 0.06410
+[17:24:12] step   6600 | loss 0.01724
+[17:24:58] step   6800 | loss 0.02771
+[17:25:44] step   7000 | loss 0.03105
+[17:26:31] step   7200 | loss 0.00837
+[17:27:19] step   7400 | loss 0.02035
+[17:28:08] step   7600 | loss 0.01050
+[17:28:56] step   7800 | loss 0.00978
+[17:29:44] step   8000 | loss 0.00783
+[17:29:44] checkpoint saved at step 8000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[17:30:32] step   8200 | loss 0.00781
+[17:31:21] step   8400 | loss 0.00850
+[17:32:09] step   8600 | loss 0.01202
+[17:32:57] step   8800 | loss 0.02567
+[17:33:45] step   9000 | loss 0.01323
+[17:34:34] step   9200 | loss 0.00943
+[17:35:22] step   9400 | loss 0.00795
+[17:36:10] step   9600 | loss 0.01120
+[17:36:58] step   9800 | loss 0.01188
+[17:37:46] step  10000 | loss 0.01059
+[17:37:46] checkpoint saved at step 10000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[17:38:34] step  10200 | loss 0.01091
+[17:39:21] step  10400 | loss 0.00818
+[17:40:09] step  10600 | loss 0.00430
+[17:40:57] step  10800 | loss 0.00513
+[17:41:44] step  11000 | loss 0.00546
+[17:42:32] step  11200 | loss 0.00355
+[17:43:20] step  11400 | loss 0.01652
+[17:44:08] step  11600 | loss 0.01248
+[17:44:56] step  11800 | loss 0.00508
+[17:45:44] step  12000 | loss 0.00331
+[17:45:44] checkpoint saved at step 12000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[17:46:32] step  12200 | loss 0.00368
+[17:47:20] step  12400 | loss 0.00413
+[17:48:09] step  12600 | loss 0.00329
+[17:48:57] step  12800 | loss 0.00338
+[17:49:45] step  13000 | loss 0.00616
+[17:50:33] step  13200 | loss 0.00706
+[17:51:22] step  13400 | loss 0.04132
+[17:52:10] step  13600 | loss 0.00758
+[17:52:58] step  13800 | loss 0.00447
+[17:53:45] step  14000 | loss 0.00367
+[17:53:45] checkpoint saved at step 14000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[17:54:32] step  14200 | loss 0.00650
+[17:55:20] step  14400 | loss 0.00661
+[17:56:07] step  14600 | loss 0.00961
+[17:57:01] step  14800 | loss 0.01430
+[17:57:55] step  15000 | loss 0.00464
+[17:58:48] step  15200 | loss 0.00292
+[17:59:42] step  15400 | loss 0.04672
+[18:00:35] step  15600 | loss 0.03111
+[18:01:28] step  15800 | loss 0.00453
+[18:02:22] step  16000 | loss 0.00920
+[18:02:22] checkpoint saved at step 16000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[18:03:14] step  16200 | loss 0.00154
+[18:04:08] step  16400 | loss 0.00317
+[18:05:01] step  16600 | loss 0.00448
+[18:05:53] step  16800 | loss 0.00952
+[18:06:46] step  17000 | loss 0.02922
+[18:07:39] step  17200 | loss 0.03229
+[18:08:32] step  17400 | loss 0.00972
+[18:09:25] step  17600 | loss 0.00343
+[18:10:17] step  17800 | loss 0.00248
+[18:11:10] step  18000 | loss 0.00143
+[18:11:10] checkpoint saved at step 18000 -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[18:12:03] step  18200 | loss 0.00312
+[18:12:56] step  18400 | loss 0.00240
+[18:13:49] step  18600 | loss 0.00808
+[18:14:42] step  18800 | loss 0.00664
+[18:15:36] step  19000 | loss 0.00222
+[18:16:29] step  19200 | loss 0.05160
+[18:17:23] step  19400 | loss 0.00198
+[18:18:17] step  19600 | loss 0.00118
+[18:19:10] step  19800 | loss 0.00183
+[18:20:00] step  19999 | loss 0.00089
+[18:20:00] training done, final checkpoint saved -> /Users/GwenBeulque/Desktop/ProjMa2/results/models/head_direction_rnn_heavy.pt
+[18:20:01] saved loss curve -> results/figures/heavy_loss_curve.png
+[18:20:01] Running sanity check on a single long trajectory...
+[18:20:01] saved sanity check -> results/figures/heavy_sanity_check.png (max angular error: 0.200 rad)
+[18:20:01] Simulating 500 trajectories of length 600...
+[18:20:01] saved simulated trajectories -> /Users/GwenBeulque/Desktop/ProjMa2/data/simulated/heavy_head_direction_trajectories.npz (hidden_states shape: torch.Size([500, 600, 64]))
+[18:20:03] Computing PCA and saving 3D scatter...
+[18:20:03] explained variance (top 3 PCs): [0.5353172  0.21189177 0.06220422] (cumulative: 0.809)
+[18:20:03] saved 3D PCA plot -> results/figures/heavy_pca3d.png
+[18:20:03] Running persistent homology (maxdim=2) on 4000 points...
+[08:28:41] loaded saved simulation: hidden_states shape (500, 600, 64)
+[08:28:43] Computing PCA and saving 3D scatter...
+[08:28:43] explained variance (top 3 PCs): [0.5353172  0.21189177 0.06220422] (cumulative: 0.809)
+[08:28:43] saved 3D PCA plot -> results/figures/heavy_pca3d.png
+[08:28:43] Running persistent homology (maxdim=2) on 4000 points...
+[08:32:14] loaded saved simulation: hidden_states shape (500, 600, 64)
+[08:32:16] Computing PCA and saving 3D scatter...
+[08:32:16] explained variance (top 3 PCs): [0.5353172  0.21189177 0.06220422] (cumulative: 0.809)
+[08:32:16] saved 3D PCA plot -> results/figures/heavy_pca3d.png
+[08:32:16] Running persistent homology (maxdim=1) on 1500 points...
+[08:32:16] ripser done in 0.5s
+[08:32:16] saved persistence diagram -> results/figures/heavy_persistence_diagram.png
+[08:32:16] top 5 H1 persistence values: [3.04091084 2.15184164 0.85273468 0.77388477 0.68289268]
+[08:32:16] H0 features with infinite persistence (connected components): 1
+[08:32:16] Running stability check: 8 independent subsamples of size 1000...
+[08:32:17]   bootstrap 1/8: max H1 persistence = 3.3734
+[08:32:17]   bootstrap 2/8: max H1 persistence = 2.4477
+[08:32:17]   bootstrap 3/8: max H1 persistence = 2.4001
+[08:32:18]   bootstrap 4/8: max H1 persistence = 2.5576
+[08:32:18]   bootstrap 5/8: max H1 persistence = 2.8321
+[08:32:18]   bootstrap 6/8: max H1 persistence = 2.6464
+[08:32:19]   bootstrap 7/8: max H1 persistence = 3.3270
+[08:32:19]   bootstrap 8/8: max H1 persistence = 2.0092
+[08:32:19] stability check summary: mean=2.6992, std=0.4356, min=2.0092, max=3.3734
+[08:32:19] Fitting aggregate circular coordinates (n_landmarks=400) on 1500 points...
+[08:32:21] dreimac done in 1.6s
+[08:32:21] saved circular coordinates plot -> results/figures/heavy_circular_coords.png
+[08:32:21] DONE. Diagnostics runtime: 0.1 min. Summary written to /Users/GwenBeulque/Desktop/ProjMa2/results/heavy_run_summary.txt
