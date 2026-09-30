@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# simulated trajectories: regenerated from the saved model by the simulation cell of 01
+data/simulated/*.npz

@@ -14,7 +14,7 @@ import numpy as np
 import torch
 
 
-def generate_batch(batch_size, seq_len, dt=0.02, max_speed=3.0, tau=4, seed=None): ## is 3 reasonable?, how about tau=0.5? and dt=0.02?
+def generate_batch(batch_size, seq_len, dt=0.02, max_speed=3.0, tau=4, seed=None, theta0=None): ## is 3 reasonable?, how about tau=0.5? and dt=0.02?
     """
     Parameters
     ----------
@@ -24,6 +24,10 @@ def generate_batch(batch_size, seq_len, dt=0.02, max_speed=3.0, tau=4, seed=None
     max_speed  : angular velocity is clipped to [-max_speed, max_speed] (rad/s) HOW IS THIS DONE IN RESEARCH 
     tau        : correlation time of the angular velocity process (s) (controls the speed at which the head turns, has to be plausible)
     seed       : optional int for reproducibility
+    theta0     : optional (batch_size,) initial heading (rad), added to the integrated angle.
+                 None = 0 for every sequence (original task). A random theta0, also given to
+                 the model, forces the hidden state to encode heading periodically (a ring)
+                 instead of the unwrapped angle.
 
     Returns
     -------
@@ -43,8 +47,9 @@ def generate_batch(batch_size, seq_len, dt=0.02, max_speed=3.0, tau=4, seed=None
         v = np.clip(v, -max_speed, max_speed) #clipped to plausible head turning range
         velocity[:, t] = v #store this step's velocity for every trajectory in the batch
 
-    # theta0 = 0 for every sequence 
     theta = np.cumsum(velocity, axis=1) * dt #integrate velocity over time to get heading angle
+    if theta0 is not None:
+        theta = theta + np.asarray(theta0, dtype=np.float32)[:, None] #start each sequence at its own heading
     target = np.stack([np.cos(theta), np.sin(theta)], axis=-1).astype(np.float32) #(cos, sin) avoids angle wraparound discontinuity
 
     velocity_t = torch.from_numpy(velocity[:, :, None]) #add trailing feature dim: (batch, seq_len, 1) for RNN input
